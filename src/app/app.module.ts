@@ -8,6 +8,8 @@ import { MainComponent } from './component/main/main.component';
 import { CartComponent } from './component/cart/cart.component';
 import { HeaderComponent } from './component/header/header.component';
 import { DashBoardComponent } from './component/dash-board/dash-board.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DashBoardComponent } from './component/dash-board/dash-board.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

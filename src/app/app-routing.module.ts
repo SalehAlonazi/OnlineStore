@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: "login", component: LoginComponent, pathMatch: 'full' },
+  { path: '', component: LoginComponent },
   { path: 'cart', component: CartComponent },
   { path: "main", component: MainComponent },
   { path: "DashBorad", component: DashBoardComponent }
@@ -17,4 +18,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+
+}

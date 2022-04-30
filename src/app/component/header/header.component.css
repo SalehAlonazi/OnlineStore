@@ -1,0 +1,12 @@
+ul li {
+    margin: 4px 5px;
+}
+
+nav {
+    background-color: steelblue;
+    height: 5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
